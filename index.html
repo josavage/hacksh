@@ -12,33 +12,27 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
-    <style>
-      a.btn {background-color: #48ade7; color: white;}
-      a.btn:hover {background-color: #3f97ca; color: white;}
-      a.dark {color: black; text-decoration: underline;}
-      header.jumbo {height: 406px; background: url('img/header.jpg') center; text-align: center; padding-top: 70px;}
-      header h1 {font-size: 35pt; color: #ffffff;}
-      header h2 {font-size: 18pt;color: #ffae00; font-weight: normal; margin-top: 10px;}
-      header hr {width: 100px; border-top: 1px solid #424850;}
-      header p {font-size: 13pt; color: #97a8ca; margin-bottom: 20px;}
-      section {border-bottom: 1px solid #d1d1d1; padding: 25px 0;}
-      section:last-of-type {border-bottom: 0;}
-      section h1 {font-size: 25px;}
-      section h2 {font-size: 20px;}
-      .main-logo {text-align: center;}
-      .main-logo img {margin-bottom: 20px}
-      footer, #minihack {background-color: #f5f5f5; padding: 40px 0;}
-      .container { max-width: 960px}
-    </style>
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="collapse navbar-collapse container" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="/">Hack.sh</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/code.html">Code de conduite</a></li>
+          <li><a href="/legal.html">Légal</a></li>
+          <li><a href="/sponsors.html">Sponsors</a></li>
+        </ul>
+    </nav>
     <header class="jumbo">
       <div class="container">
         <h1>Hack.sh</h1>
         <h2>14-15 Mars 2014</h2>
         <hr />
         <p>Le premier hackathon de Sherbrooke</p>
-        <a href="http://hacksh.eventbrite.ca" target="_blank" class="btn btn-lg" role="button">S'inscrire</a>
+        <a href="http://hacksh.eventbrite.ca" class="btn btn-lg" role="button">S'inscrire</a>
       </div>
     </header>
 
@@ -48,23 +42,23 @@
           <img src="img/calendar.png" />
         </div>
         <div class="col-md-10">
-          <h1>Mini Hack <small>1<sup>er</sup> février</h1>
-        <p>Joignez-nous pour un hackathon spécial d'une journée. La formule est fort simple : hack + fun. Il n'y aura pas de présentations, de compétions ou de distractions. Juste du hacking à son meilleur.</p>
+          <h1>Mini Hack <small>1<sup>er</sup> février</small></h1>
+          <p>Joignez-nous pour un hackathon spécial d'une journée. La formule est fort simple : hack + fun. Il n'y aura pas de présentations, de compétions ou de distractions. Juste du hacking à son meilleur.</p>
 
-        <p>Viens pour travailler sur des projets perso, ou viens travailler en équipe sur de nouveaux projets. Il y aura aussi des hackers experimentés si tu veux venir poser des questions.</p>
+          <p>Viens pour travailler sur des projets perso, ou viens travailler en équipe sur de nouveaux projets. Il y aura aussi des hackers experimentés si tu veux venir poser des questions.</p>
 
-        <p>Tout le monde est le bienvenue du débutant jusqu'aux programmeurs les plus expérimentés.</p>
+          <p>Tout le monde est le bienvenue du débutant jusqu'aux programmeurs les plus expérimentés.</p>
 
-        <p>Le Mini Hack aura lieu au <a href="http://www.communautiii.com/projects/3" class="dark" target="_blank"><strong>10 Wellington Nord</strong></a> de <strong>14h à 21h</strong>.</p>
-        <br />
-        <p><a href="http://hacksh01.eventbrite.ca" target="_blank" class="btn" role="button">S'inscrire au Mini Hack</a></p>
+          <p>Le Mini Hack aura lieu au <a href="http://www.communautiii.com/projects/3" class="dark" ><strong>10 Wellington Nord</strong></a> de <strong>14h à 21h</strong>.</p>
+          <br />
+          <p><a href="http://hacksh01.eventbrite.ca" class="btn" role="button">S'inscrire au Mini Hack</a></p>
         </div>
       </div>
     </section>
 
     <section id="hacksh">
       <div class="container">
-        <h1>Hack.sh <small>14-15 mars</small></h1>
+        <h1>Hack.sh <small>14 mars 18:00 au 15 mars 21:00</small></h1>
 
         <div class="row">
           <div class="col-md-8">
@@ -72,10 +66,11 @@
 
             <p>En collaboration avec <a href="http://www.sherweb.com/">Sherweb</a>, nous vous offrons un 24h de programmation dans leurs nouveaux locaux. Ils vont s'occuper de vous pour que vous soyez aux petits oignons: nourriture, breuvage, bonbons, snacks, mentors, hébergement web, conférences éclair et plus de 1000$ en prix!</p>
 
+            <p><a href="http://hacksh.eventbrite.ca" class="btn btn-lg" role="button">S'inscrire</a></p>
           </div>
           <div class="col-md-4 main-logo">
             <img src="img/apius.png" />
-            <img src="img/sherweb.jpg" />
+            <img src="img/sherweb.jpg" width="196" height="46" />
           </div>
         </div>
       </div>
@@ -117,6 +112,16 @@
         <br />
 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.5882574452953!2d-71.91887999999999!3d45.39747600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb7b317aad002df%3A0xf4a86b5cfecd6918!2sSherweb+95%2C+boul.+Jacques-Cartier+Sud%2C+sherbrooke!5e0!3m2!1sen!2sca!4v1390443449665" style="width:100%" height="450" frameborder="0" style="border:0"></iframe>
+      </div>
+    </section>
+
+    <section id="logistique">
+      <div class="container">
+        <h1>Logistique</h1>
+        <ul>
+          <li><a href="/code.html">Code de conduite à lire et comprendre</a></li>
+          <li><a href="/legal.html">Informations légales</a></li>
+        </ul>
       </div>
     </section>
 
