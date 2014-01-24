@@ -8,8 +8,8 @@ header hr {width: 100px; border-top: 1px solid #424850;}
 header p {font-size: 13pt; color: #97a8ca; margin-bottom: 20px;}
 section {border-bottom: 1px solid #d1d1d1; padding: 25px 0;}
 section:last-of-type {border-bottom: 0;}
-section h1 {font-size: 25px;}
-section h2 {font-size: 20px;}
+section h1 {font-size: 29px; margin-bottom: 15px;}
+section h2 {font-size: 25px;}
 .main-logo {text-align: center;}
 .main-logo img {margin-bottom: 20px}
 footer, #minihack {background-color: #f5f5f5; padding: 40px 0;}
